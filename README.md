@@ -1,7 +1,5 @@
 Base shell comand
 
------
-
 * ls - list directory  
 * pwd - show current path  
 * cd - change directory  
@@ -18,3 +16,15 @@ Base git command
 * git add . - add change to stage  
 * git commit - commit changes from stage  
 * git push - push commit to remote repository  
+* git log - show the history of commits in repository
+
+--------
+
+Statuses
+
+Hash is a short number&symbol value of commit maded of function SHA1 at commit
+HEAD is a link to the last commit
+Untrecked - file in repository, but git doesn't check cahnges in file
+Tracekd - git see for canges in file
+Modified - file have been cahnged
+Staged - file changes ready to commit 
